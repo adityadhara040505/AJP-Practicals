@@ -17,6 +17,7 @@ class Practical10Q1 extends JFrame implements KeyListener{
         f.setVisible(true);
         JTextArea tArea = new JTextArea("Enter text");
         tArea.addKeyListener(this);
+        tArea.setBounds(300,200,20,80);
         f.add(tArea);
         f.add(l);
     }
