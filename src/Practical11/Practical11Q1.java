@@ -20,13 +20,11 @@ class Practical11Q1 extends Frame implements MouseListener{
 		switch(i)
 		{
 			
-			case 1: this.setBackground(Color.RED);break;
-			case 2: this.setBackground(Color.YELLOW);break;
-			case 3: this.setBackground(Color.BLUE);break;
+			case 1: this.setBackground(Color.RED);i++;break;
+			case 2: this.setBackground(Color.YELLOW);i++;break;
+			case 3: this.setBackground(Color.BLUE);i=1;break;
 			
 		}
-		if(i==3){i=1;}
-		else{i++;}
 		
 	}
 	public void mousePressed(MouseEvent me){}
